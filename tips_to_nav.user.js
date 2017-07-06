@@ -19,4 +19,13 @@
     }
     link.href = "/discuss/31/";
     link.textContent = "AT";
+    
+    var link;
+    if (typeof scratch === "undefined") {
+        link = document.querySelector("#navigation a[href='/About']");
+    } else {
+        link = document.querySelector(".site-nav a[href='/About']");
+    }
+    link.href = "https://atc.captainwebservices.com/";
+    link.textContent = "ATC";
 })();
