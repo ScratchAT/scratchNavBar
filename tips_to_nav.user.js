@@ -22,9 +22,9 @@
     
     var link;
     if (typeof scratch === "undefined") {
-        link = document.querySelector("#navigation a[href='/about']");
+        link = document.querySelector("#navigation a[href='/about/']");
     } else {
-        link = document.querySelector(".site-nav a[href='/about']");
+        link = document.querySelector(".site-nav a[href='/about/']");
     }
     link.href = "https://atc.captainwebservices.com/";
     link.textContent = "ATC";
